@@ -7,7 +7,7 @@ import { Category } from './category.model';
 @Injectable({
   providedIn: 'root'
 })
-export class SharedService {
+export class CategoryService {
 
   private apiPath: string = 'api/categories';
 
